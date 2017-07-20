@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>switch</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+    switch (new Date().getDay())
+
+    {
+        case 0:
+            day="sunday";
+            document.getElementById("demo").innerHTML=day;
+            break;
+
+        case 1:
+            day="monday";
+            document.getElementById("demo").innerHTML=day;
+
+            break;
+
+        default:
+            document.getElementById("demo").innerHTML="today is neither Sunday nor Monday";
+
+    }
+</script>
+</body>
+</html>

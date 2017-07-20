@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>replace all string with /string/g</title>
+</head>
+
+<body>
+<p>
+    replace all string with /string/g
+
+</p>
+<p id ="demo">bijesh, kawan,guitar,drum</p>
+<button type="button" onclick="myfunction()"> click here</button>
+<script>
+    function myfunction()
+    {
+        var txt = document.getElementById("demo").innerHTML;
+        var yeyi = txt.split(",");
+        document.getElementById("demo").innerHTML = yeyi[0];
+    }
+</script>
+</body>
+</html>

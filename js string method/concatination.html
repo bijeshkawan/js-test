@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>replace all string with /string/g</title>
+</head>
+
+<body>
+<p>
+    replace all string with /string/g
+
+</p>
+<p id ="demo">bijesh</p>
+<button type="button" onclick="myfunction()"> click here</button>
+<script>
+    function myfunction()
+    {
+        var txt1 =document.getElementById("demo").innerHTML;
+        var txt2="kawan";
+        var txt3 = txt1.concat(" ", txt2);
+        document.getElementById("demo").innerHTML = txt3;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>built in function construtor</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+    var addition = new Function ("a" ,"b", "return a+b");
+    document.getElementById("demo").innerHTML=addition(4,1);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>for in loop</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+    var person={firstname:"bijesh",lastname:"kawan",age:24};
+    var x;
+    var y= " ";
+    for(x in person)
+    {
+        y+=person[x] + " ";
+        document.getElementById("demo").innerHTML=y;
+    }
+</script>
+</body>
+</html>

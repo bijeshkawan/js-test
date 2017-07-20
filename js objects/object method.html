@@ -1,0 +1,49 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>Object method accessing</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<h1>Object method accessing</h1>-->
+<!--<p id="demo"></p>-->
+<!--<script>-->
+    <!--var person = {-->
+        <!--firstName: "bijesh",-->
+        <!--lastName: "kawan",-->
+        <!--color: "black",-->
+        <!--fullName: function () {-->
+            <!--return this.firstName + " " + this.lastName;-->
+
+        <!--}-->
+    <!--};-->
+    <!--document.getElementsByName("demo").innerHTML = person.fullName();-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Creating and using an object method.</p>
+
+<p>An object method is a function definition, stored as a property value.</p>
+
+<p id="demo"></p>
+
+<script>
+    var person = {
+        firstName: "John",
+        lastName : "Doe",
+        id       : 5566,
+        fullName : function() {
+            return this.firstName + " " + this.lastName;
+        }
+    };
+
+    document.getElementById("demo").innerHTML = person.fullName();
+</script>
+</body>
+</html>
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+</head>
+<body>
+
+
+ <input type="number" id="mynumber">
+    <input type="number" id="mynumber1">
+    <button id="demo" type="button" onclick= "myFunction()"> Equals to </button>
+    <input type="number" id="mynumber2" value="demo1">
+    <button id="myBtn" value="+">+</button>
+
+
+<p id="demo"> </p>
+
+<script>
+    function myFunction() {
+        var x=document.getElementById("mynumber").value;
+        var y=document.getElementById("mynumber1").value;
+        var z=parseInt(document.getElementById("myBtn").value);
+
+        document.getElementById("demo1").innerHTML=x + y ;
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>boolean </title>
+</head>
+<body>
+<p id ="demo"></p>
+<p id ="demo1"></p>
+
+<p id ="demo2"></p>
+
+<script>
+    var x=0;
+    var y=200;
+    document.getElementById("demo").innerHTML=Boolean(x);  //Everything Without a "Real" Value is False
+
+    document.getElementById("demo1").innerHTML=Boolean(y); //Everything With a "Real" Value is true
+
+    document.getElementById("demo2").innerHTML=Boolean(2>21);
+</script>
+</body>
+</html>

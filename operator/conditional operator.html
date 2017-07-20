@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="demo"></p>
+<input type="text" id="age" value="14">
+<button onclick="myFunction()">check here</button>
+<script>
+    function myFunction() {
+        var age=document.getElementById("age").value;
+        var age1=parseInt(age);
+        var votable = (age1 < 18)? "Too young":"Old Enough";
+        document.getElementById("demo").innerHTML=votable;
+    }
+
+</script>
+</body>
+</html>

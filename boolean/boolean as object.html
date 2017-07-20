@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>boolean object</title>
+</head>
+<body>
+<p id="demo"></p>
+<p id="demo1"></p>
+
+<script>
+    var x = false; // x is a number
+    var y = new Boolean(false); // y is an object
+    var z= new Boolean(false);
+    document.getElementById("demo").innerHTML = (x == y);
+    document.getElementById("demo1").innerHTML = (z == y); // (x == y) is false because objects cannot be compared
+
+
+</script>
+</body>
+</html>

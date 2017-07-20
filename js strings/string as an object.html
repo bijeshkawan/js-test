@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>string as an object</title>
+
+</head>
+<body>
+<h1>string as an object</h1>
+<p>string as an object</p>
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+    var x="bijesh";
+    var y= new String("bkawan");
+    var z= new String("bijesh");
+    var w= new String("bijesh");
+
+    document.getElementById("demo").innerHTML=typeof x + "<br>" + typeof y;
+    document.getElementById("demo1").innerHTML=(x==z);
+    document.getElementById("demo2").innerHTML=(x===w);
+
+</script>
+</body>
+</html>

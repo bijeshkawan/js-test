@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>if example</title>
+</head>
+<body>
+<p id="demo">Good morning</p>
+
+<script>
+    var hrs= new Date().getHours();
+    if (hrs<18){
+        document.getElementById("demo").innerHTML="Good Day";
+
+    }
+    else
+    {
+        document.getElementById("demo").innerHTML="Good Evening";
+    }
+</script>
+</body>
+</html>

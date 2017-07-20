@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>replace all string with /string/g</title>
+</head>
+
+<body>
+<p>
+    replace all string with /string/g
+
+</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>replace all string with /string/g</title>
+</head>
+
+<body>
+<p>
+    replace all string with /string/g
+
+</p>
+<p id ="demo">bijesh kawan plays guitar and guitar always</p>
+<button type="button" onclick="myfunction()"> click here</button>
+<p id ="demo1">BIJESH KAWAN</p>
+<button type="button" onclick="myfunction1()"> click here</button>
+
+<script>
+    function myfunction()
+    {
+        var txt = document.getElementById("demo").innerHTML;
+        var yeyi = txt.replace(/guitar/g, "drum");
+        document.getElementById("demo").innerHTML = yeyi;
+    }
+    function myfunction1()
+    {
+        var txt1 = document.getElementById("demo1").innerHTML;
+        var yeyi1 = txt1.toLowerCase();
+        document.getElementById("demo1").innerHTML = yeyi1;
+    }
+</script>
+</body>
+</html>
+<script>
+    function myfunction()
+    {
+        var txt = document.getElementById("demo").innerHTML;
+        var yeyi = txt.toUpperCase();
+        document.getElementById("demo").innerHTML = yeyi;
+    }
+</script>
+</body>
+</html>

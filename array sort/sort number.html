@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>number sorting</title>
+</head>
+<body>
+<p id="demo"></p>
+<p id="demo1"></p>
+<button onclick="myFunction()"> try it</button>
+
+<script>
+    var points=[1,2,11,7,100,10,19,16,2];
+    document.getElementById("demo").innerHTML=points;
+    document.getElementById("demo1").innerHTML=points.sort();
+
+    function myFunction() {
+       points.sort(function (a,b) {return(a-b)
+
+       });
+       document.getElementById("demo").innerHTML=points;
+   }
+
+
+
+</script>
+</body>
+</html>
